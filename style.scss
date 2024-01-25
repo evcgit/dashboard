@@ -1,0 +1,43 @@
+@use 'base';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: base.$background;
+}
+
+.sidebarContainer{
+    margin-left: 3vh;
+    width: 12%;
+    height: 100vh;
+    border-right: solid rgb(221, 220, 220) 1px;
+}
+
+ul li {
+    margin: .5vh;
+    padding: 1vh;
+    cursor: pointer;
+    font-size: .9rem;
+    opacity: 80%;
+    border-radius: 15px;
+    list-style: none;
+    width: 80%;
+}
+
+.categoryContainers {
+    margin-top: 4vh;
+}
+
+.categoryContainers p {
+    font-size: .7rem;
+    opacity: 60%;
+}
+
+li:hover {
+    background-color: base.$highlighter;
+    font-weight: bold;
+}
