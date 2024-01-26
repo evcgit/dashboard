@@ -87,7 +87,7 @@ li:hover {
   margin-top: 20px;
 }
 .quickStatsContainer span {
-  color: lightgreen;
+  color: #69b645;
 }
 .dashboard-top {
   display: flex;
