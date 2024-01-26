@@ -8,6 +8,8 @@
 
 body {
     background-color: base.$background;
+    display: flex;
+    flex-direction: row;
 }
 
 .sidebarContainer{
@@ -45,4 +47,48 @@ ul li {
 li:hover {
     background-color: base.$highlighter;
     font-weight: bold;
+}
+
+.dashboardContainer{
+    display: flex;
+    @extend %dashboardCsize;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button{
+    @extend %btn;
+}
+.quickStatsContainer{
+    background-color: base.$whitesmoke;
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    span{
+        color: lightgreen;
+    }
+    img{
+        @extend %imgsize;
+    }
+    .leadsContainer, .trialSContainer, .trialAContainer{
+        @extend %quickstatscard;
+        
+    }
+}
+.dashboard-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 80%;
+    align-items: center;
+    h2{
+        font-size: .9rem;
+        
+    }
+}
+.quickstatscontainer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

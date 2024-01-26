@@ -1,2 +1,28 @@
 $highlighter: rgb(238,235,248);
 $background: rgb(245,245,249);
+$whitesmoke: whitesmoke;
+%imgsize {
+    width: 100px;
+    height: 100px;
+}
+%dashboardCsize{
+    width: 100%;
+}
+%quickstatscard{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: .8rem;
+}
+%btn{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
