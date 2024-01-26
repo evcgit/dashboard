@@ -15,6 +15,10 @@ body {
     width: 12%;
     height: 100vh;
     border-right: solid rgb(221, 220, 220) 1px;
+
+    h1 {
+        margin-top: 2vh;
+    }
 }
 
 ul li {
@@ -30,12 +34,13 @@ ul li {
 
 .categoryContainers {
     margin-top: 4vh;
+    
+    p {
+        font-size: .7rem;
+        opacity: 60%;
+    }
 }
 
-.categoryContainers p {
-    font-size: .7rem;
-    opacity: 60%;
-}
 
 li:hover {
     background-color: base.$highlighter;
