@@ -5,13 +5,11 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: base.$background;
     display: flex;
     flex-direction: row;
 }
-
 .sidebarContainer{
     margin-left: 3vh;
     width: 20%;
@@ -22,7 +20,6 @@ body {
         margin-top: 2vh;
     }
 }
-
 ul li {
     margin: .5vh;
     padding: 1vh;
@@ -33,7 +30,6 @@ ul li {
     list-style: none;
     width: 80%;
 }
-
 .categoryContainers {
     margin-top: 4vh;
     
@@ -42,11 +38,10 @@ ul li {
         opacity: 60%;
     }
 }
-
-
 li:hover {
     background-color: base.$highlighter;
     font-weight: bold;
+    opacity: 90%;
 }
 
 .dashboardContainer{
@@ -64,10 +59,6 @@ button{
     background-color: base.$whitesmoke;
     display: flex;
     width: 90%;
-    margin-top: 20px;
-    span{
-        color: #69b645;
-    }
     img{
         @extend %imgsize;
     }
@@ -79,7 +70,7 @@ button{
 .dashboard-top{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 15px;
     width: 80%;
     align-items: center;
     h2{
@@ -91,4 +82,34 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.detailedStatsContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2.5vh;
+    width: 85%;
+    height: 80%;
+    margin: 2vh 0 0 -5vh;
+}
+.seeMoreContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    left: 3vh;
+    top: 2.5vh;
+}
+.seeMore {
+    color: base.$purpletext;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.detailedstatscard {
+    @extend %detailedstatscard;
+}
+.greenArrow {
+    color: base.$greenpercentcolor;
+}
+.redArrow {
+    color: base.$redpercentcolor;
 }

@@ -1,6 +1,9 @@
 $highlighter: rgb(238,235,248);
 $background: rgb(245,245,249);
 $whitesmoke: whitesmoke;
+$greenpercentcolor: #69b645;
+$redpercentcolor: #e12b2b;
+$purpletext: #7a48e8;
 %imgsize {
     width: 100px;
     height: 100px;
@@ -16,7 +19,8 @@ $whitesmoke: whitesmoke;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    font-size: .8rem;
+    font-size: .9rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 %btn{
     background-color: white;
@@ -25,4 +29,19 @@ $whitesmoke: whitesmoke;
     border-radius: 6px;
     border: none;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+%detailedstatscard {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: .9rem;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .numbersContainer{
+        position: relative;
+        top: 4vh;
+        left: 3vh;
+    }
 }
