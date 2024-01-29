@@ -127,6 +127,7 @@ button{
     width: 30%;
     background-color: base.$purplebar;
     border-radius: 5px;
+    opacity: 70%;
 }
 .dataContainer2{
    @extend %dataContainers;
@@ -150,4 +151,8 @@ button{
 }
 .dataInput{
     color: base.$purpletext;
+    margin-right: 10px;
+}
+.dataTitle{
+    opacity: 100%;
 }

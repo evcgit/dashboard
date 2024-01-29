@@ -4,7 +4,7 @@ $whitesmoke: whitesmoke;
 $greenpercentcolor: #69b645;
 $redpercentcolor: #e12b2b;
 $purpletext: #7a48e8;
-$purplebar:  rgb(146, 139, 146);
+$purplebar:  #f0eafc;
 $greybar: lightgrey;
 %imgsize {
     width: 100px;
@@ -62,5 +62,5 @@ $greybar: lightgrey;
     padding: .4em;
     background: $greybar;
     border-radius: 5px;
-    opacity: 100%;
+    opacity: 70%;
 }
