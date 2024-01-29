@@ -95,9 +95,7 @@ button{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    position: relative;
-    left: 3vh;
-    top: 2.5vh;
+    padding: .7em;
 }
 .seeMore {
     color: base.$purpletext;
@@ -117,9 +115,33 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 6vh;
+    padding-bottom: .7em
 }
 .progressBar {
     @extend %progressBar;
+}
+.dataContainer1{
+    width: 30%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+.dataContainer2{
+    width: 50%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+.dataContainer3{
+    width: 75%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+.dataContainer4{
+    width: 25%;
+    background: lightgrey;
+    border-radius: 5px;
+}
+.dataContainer5{
+    width: 45%;
+    background: lightgrey;
+    border-radius: 5px;
 }
