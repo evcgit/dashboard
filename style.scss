@@ -113,3 +113,13 @@ button{
 .redArrow {
     color: base.$redpercentcolor;
 }
+.progressBarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+}
+.progressBar {
+    @extend %progressBar;
+}
