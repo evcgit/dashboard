@@ -47,7 +47,7 @@ button {
   border: 1px solid whitesmoke;
   border-radius: 7px;
   margin-top: 1vh;
-  margin: 0.6em;
+  margin: 0.5em;
 }
 
 * {
@@ -164,30 +164,35 @@ li:hover {
 }
 
 .dataContainer1 {
+  padding: 0.4em;
   width: 30%;
   background-color: rgb(133, 115, 133);
   border-radius: 5px;
 }
 
 .dataContainer2 {
+  padding: 0.4em;
   width: 50%;
   background: lightgrey;
   border-radius: 5px;
 }
 
 .dataContainer3 {
+  padding: 0.4em;
   width: 75%;
   background: lightgrey;
   border-radius: 5px;
 }
 
 .dataContainer4 {
+  padding: 0.4em;
   width: 25%;
   background: lightgrey;
   border-radius: 5px;
 }
 
 .dataContainer5 {
+  padding: 0.4em;
   width: 45%;
   background: lightgrey;
   border-radius: 5px;

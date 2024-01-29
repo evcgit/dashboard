@@ -121,27 +121,32 @@ button{
     @extend %progressBar;
 }
 .dataContainer1{
+    padding: .4em;
     width: 30%;
-    background-color: rgb(133, 115, 133);
+    background-color: base.$purplebar;
     border-radius: 5px;
 }
 .dataContainer2{
+    padding: .4em;
     width: 50%;
-    background: lightgrey;
+    background: base.$greybar;
     border-radius: 5px;
 }
 .dataContainer3{
+    padding: .4em;
     width: 75%;
-    background: lightgrey;
+    background: base.$greybar;
     border-radius: 5px;
 }
 .dataContainer4{
+    padding: .4em;
     width: 25%;
-    background: lightgrey;
+    background: base.$greybar;
     border-radius: 5px;
 }
 .dataContainer5{
+    padding: .4em;
     width: 45%;
-    background: lightgrey;
+    background: base.$greybar;
     border-radius: 5px;
 }
