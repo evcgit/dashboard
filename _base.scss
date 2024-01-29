@@ -49,15 +49,18 @@ $greybar: lightgrey;
     }
 }
 %progressBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 90%;
     border: 1px solid whitesmoke;
     border-radius: 7px;
     margin-top: 1vh;
     margin: .5em;
-    opacity: 60%;
 }
 %dataContainers{
     padding: .4em;
     background: $greybar;
     border-radius: 5px;
+    opacity: 100%;
 }

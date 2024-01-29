@@ -129,10 +129,9 @@ button{
     border-radius: 5px;
 }
 .dataContainer2{
-    padding: .4em;
+   @extend %dataContainers;
     width: 50%;
-    background: base.$greybar;
-    border-radius: 5px;
+    
 }
 .dataContainer3{
     @extend %dataContainers;
@@ -148,4 +147,7 @@ button{
     @extend %dataContainers;
     width: 45%;
     
+}
+.dataInput{
+    color: base.$purpletext;
 }
