@@ -95,7 +95,9 @@ button{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    padding: .7em;
+    padding: 1em;
+    position: relative;
+    left: 10px;
 }
 .seeMore {
     color: base.$purpletext;
@@ -133,20 +135,17 @@ button{
     border-radius: 5px;
 }
 .dataContainer3{
-    padding: .4em;
+    @extend %dataContainers;
     width: 75%;
-    background: base.$greybar;
-    border-radius: 5px;
+    
 }
 .dataContainer4{
-    padding: .4em;
+    @extend %dataContainers;
     width: 25%;
-    background: base.$greybar;
-    border-radius: 5px;
+    
 }
 .dataContainer5{
-    padding: .4em;
+    @extend %dataContainers;
     width: 45%;
-    background: base.$greybar;
-    border-radius: 5px;
+    
 }

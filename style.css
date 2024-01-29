@@ -40,6 +40,8 @@ button {
 }
 .detailedstatscard .numbersContainer {
   padding: 0.5em;
+  position: relative;
+  left: 1em;
 }
 
 .progressBar {
@@ -48,6 +50,13 @@ button {
   border-radius: 7px;
   margin-top: 1vh;
   margin: 0.5em;
+  opacity: 60%;
+}
+
+.dataContainer3, .dataContainer4, .dataContainer5 {
+  padding: 0.4em;
+  background: lightgrey;
+  border-radius: 5px;
 }
 
 * {
@@ -139,7 +148,9 @@ li:hover {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  padding: 0.7em;
+  padding: 1em;
+  position: relative;
+  left: 10px;
 }
 
 .seeMore {
@@ -166,7 +177,7 @@ li:hover {
 .dataContainer1 {
   padding: 0.4em;
   width: 30%;
-  background-color: rgb(133, 115, 133);
+  background-color: rgb(146, 139, 146);
   border-radius: 5px;
 }
 
@@ -178,22 +189,13 @@ li:hover {
 }
 
 .dataContainer3 {
-  padding: 0.4em;
   width: 75%;
-  background: lightgrey;
-  border-radius: 5px;
 }
 
 .dataContainer4 {
-  padding: 0.4em;
   width: 25%;
-  background: lightgrey;
-  border-radius: 5px;
 }
 
 .dataContainer5 {
-  padding: 0.4em;
   width: 45%;
-  background: lightgrey;
-  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

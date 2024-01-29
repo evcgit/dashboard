@@ -4,7 +4,7 @@ $whitesmoke: whitesmoke;
 $greenpercentcolor: #69b645;
 $redpercentcolor: #e12b2b;
 $purpletext: #7a48e8;
-$purplebar:  rgb(133, 115, 133);
+$purplebar:  rgb(146, 139, 146);
 $greybar: lightgrey;
 %imgsize {
     width: 100px;
@@ -44,6 +44,8 @@ $greybar: lightgrey;
 
     .numbersContainer{
         padding: .5em;
+        position: relative;
+        left: 1em;
     }
 }
 %progressBar{
@@ -52,4 +54,10 @@ $greybar: lightgrey;
     border-radius: 7px;
     margin-top: 1vh;
     margin: .5em;
+    opacity: 60%;
+}
+%dataContainers{
+    padding: .4em;
+    background: $greybar;
+    border-radius: 5px;
 }
