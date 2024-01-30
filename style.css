@@ -59,7 +59,7 @@ button {
   padding: 0.4em;
   background: lightgrey;
   border-radius: 5px;
-  opacity: 100%;
+  opacity: 70%;
 }
 
 * {
@@ -180,8 +180,9 @@ li:hover {
 .dataContainer1 {
   padding: 0.4em;
   width: 90%;
-  background-color: rgb(146, 139, 146);
+  background-color: #f0eafc;
   border-radius: 5px;
+  opacity: 70%;
 }
 
 .dataContainer2 {
@@ -202,4 +203,9 @@ li:hover {
 
 .dataInput {
   color: #7a48e8;
+  margin-right: 10px;
+}
+
+.dataTitle {
+  opacity: 100%;
 }/*# sourceMappingURL=style.css.map */
