@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.quickStatsContainer .leadsContainer, .trialSContainer,.trialAContainer {
+.quickStatsContainer .leadsContainer, .quickStatsContainer .trialSContainer, .quickStatsContainer .trialAContainer {
   width: 30%;
   display: flex;
   justify-content: space-between;
